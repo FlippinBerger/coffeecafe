@@ -1,4 +1,8 @@
+import { MetaFunction } from "@remix-run/node";
 import { Link } from "@remix-run/react";
+
+
+export const meta: MetaFunction = () => [{ title: "Remix Notes for Rachel" }];
 
 export default function NoteIndexPage() {
   return (
